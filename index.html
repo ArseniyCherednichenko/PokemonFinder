@@ -11,7 +11,7 @@
         <h1>Pokémon Finder</h1>
         <form id="search-form">
             <input type="text" id="search-input" placeholder="Search for a Pokémon...">
-            <button id="search-button">Search</button>
+            <button id="search-button" oneclick = getRandomPokemon1() >Search</button>
         </form>
     </header>
     <main>
@@ -24,7 +24,6 @@
                 <p id="pokemon-id">ID: <span></span></p>
                 <p id="pokemon-height">Height: <span></span>m</p>
                 <p id="pokemon-weight">Weight: <span></span>kg</p>
-                <p id="pokemon-abilities">Abilities: <span></span></p>
             </div>
             <button id="regenerate-button">Regenerate Pokémon</button>
         </section>
